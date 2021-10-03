@@ -66,7 +66,7 @@ public class SeeAllFlights extends HttpServlet {
 						out.println("<th>"); out.println("Airline"); out.println("</th>");
 						out.println("<th>"); out.println("Number Of Seats"); out.println("</th>");
 						out.println("<th>"); out.println("Source"); out.println("</th>");
-						out.println("<th>"); out.println("Desintation"); out.println("</th>");
+						out.println("<th>"); out.println("Destination"); out.println("</th>");
 						out.println("<th>"); out.println("Departure Date"); out.println("</th>");
 						out.println("<th>"); out.println("Arrival Date"); out.println("</th>");
 						out.println("<th>"); out.println("Price"); out.println("</th>");
@@ -89,7 +89,7 @@ public class SeeAllFlights extends HttpServlet {
 					request.getRequestDispatcher("registeration.html").include(request, response);
 					} else {
 						out.print("<a href=\"index.html\">Home</a>");
-						out.print("<h1>Sorry there are no flights currently!<h1>");
+						out.print("<h1>Sorry there are NO flights currently!<h1>");
 					}
 
 					session.close();

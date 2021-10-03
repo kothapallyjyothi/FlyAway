@@ -92,7 +92,7 @@ public class SearchFlights extends HttpServlet {
 				out.println("<th>"); out.println("Airline"); out.println("</th>");
 				out.println("<th>"); out.println("Number Of Seats"); out.println("</th>");
 				out.println("<th>"); out.println("Source"); out.println("</th>");
-				out.println("<th>"); out.println("Desintation"); out.println("</th>");
+				out.println("<th>"); out.println("Destination"); out.println("</th>");
 				out.println("<th>"); out.println("Departure Date"); out.println("</th>");
 				out.println("<th>"); out.println("Arrival Date"); out.println("</th>");
 				out.println("<th>"); out.println("Price"); out.println("</th>");
